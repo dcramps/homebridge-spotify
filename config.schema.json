@@ -1,0 +1,28 @@
+{
+    "pluginAlias": "homebridge-spotify",
+    "pluginType": "platform",
+    "headerDisplay": "[Get a code](https://accounts.spotify.com/authorize?client_id=304a7a74008f4de0bc8ce661b5bd0166&response_type=code&redirect_uri=https://dc.wtf/callback&scope=user-read-playback-state%20user-library-read%20user-read-currently-playing%20user-modify-playback-state%20user-follow-read%20playlist-read-private&state=wooooo_come_on)",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "title": "code",
+          "type": "string",
+          "required": true,
+          "description": "Code from the above link"
+        },
+        "client_id": {
+          "title": "client_id",
+          "type": "string",
+          "required": true,
+          "description": "Spotify app client ID"
+        },
+        "client_secret": {
+          "title": "client_secret",
+          "type": "string",
+          "required": true,
+          "description": "Spotify app client secret"
+        }
+      }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "spotify-web-api-node": "4.0.0"
+    },
+    "engines": {
+        "homebridge": ">=0.2.0",
+        "node": ">=0.12.0"
+    },
+    "keywords": ["homebridge-plugin"],
+    "name": "homebridge-spotify",
+    "version": "0.0.2"
+}
